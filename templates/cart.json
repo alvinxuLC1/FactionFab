@@ -1,0 +1,48 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-cart",
+      "settings": {
+        "show_sku": false,
+        "enable_order_notes": false,
+        "enable_shipping_calc": true,
+        "shipping_calc_default_country": "United States"
+      }
+    },
+    "1761594874ac924325": {
+      "type": "apps",
+      "blocks": {
+        "bss_b2b_solution_nt_fN9r4i": {
+          "type": "shopify://apps/bss-b2b-solution/blocks/nt/451233f2-9631-4c49-8b6f-057e4ebcde7f",
+          "settings": {
+            "text_color": "#FFFFFF",
+            "background_color": "#121212",
+            "button_width": 350,
+            "button_height": 48,
+            "align_button": "right",
+            "display_text": "Pay later"
+          }
+        }
+      },
+      "block_order": [
+        "bss_b2b_solution_nt_fN9r4i"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1761594874ac924325"
+  ]
+}

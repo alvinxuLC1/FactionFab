@@ -1,0 +1,552 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "dynamic_slideshow": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "b8a75908-cee0-425a-b085-35ddd98a86b4": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify://shop_images/FactionFab_2024_chjristmas_website_banner.jpg",
+            "title": "Black Friday / Cyber Monday Sale",
+            "text": "Save 15% off on FactionFab products through December 7th!",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "SAVE NOW",
+            "button_one_link": "https://www.factionfab.com/collections/factionfab-products?filter.v.availability=1",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "slide-4": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/22_WRX_Coilover_1.jpg",
+            "title": "FactionFab Version 2 Coilovers",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "right",
+            "button_one_label": "Shop Coilovers",
+            "button_one_link": "shopify://collections/suspension",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "secondary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 15
+          }
+        },
+        "7a395d26-57b9-4b37-af4a-c2be29dc1bd7": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/FactionFab-VB-WRX-Axle-Back-Exhaust-Homepage-Banner.jpg",
+            "title": "FactionFab Axle Back Exhausts",
+            "text": "NEW for the Subaru 2022+ VB WRX",
+            "color": "#ffffff",
+            "link": "shopify://collections/axle-back",
+            "text_alignment": "center",
+            "button_one_label": "Shop Axleback Exhausts",
+            "button_one_link": "shopify://collections/axle-back",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "slide_LDpjFw": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/FactionFab-New-Brake-Pads-Product-Release-Homepage-Banner2.jpg",
+            "title": "New Products!",
+            "text": "FactionFab Version 2 Brake Pads for Subarus",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "Shop Now!",
+            "button_one_link": "shopify://collections/brake-pads",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "93ca5e0f-c443-4a10-bacb-5711c00e55ca": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/Lug_Nuts.jpg",
+            "title": "FactionFab Lug Nuts",
+            "text": "Available in a variety of sizes to fit your car or truck",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "Shop Lug Nuts",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "2c85a0cb-6358-4472-9d33-59ff58cef618": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify://shop_images/22_WRX_Steering_Wheel.jpg",
+            "title": "Now Available!",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "22+ WRX Steering Wheels",
+            "button_one_link": "shopify://collections/steering-wheels",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "bf850ce1-c151-4de1-81be-11ef62b5ebf1": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/End_Links.jpg",
+            "mobile_background_image": "shopify://shop_images/End_Link_Installed-7.jpg",
+            "title": "NEW!",
+            "text": "FactionFab Subaru Sway Bar Endlinks",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "Shop End Links",
+            "button_one_link": "shopify://collections/sway-bars",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "fc1835dd-fb43-4989-8322-7a9cfc1cbe88": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "background_image": "shopify://shop_images/Black_Tip.jpg",
+            "title": "FactionFab Axle Back Exhaust Kits",
+            "text": "",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "left",
+            "button_one_label": "Shop Exhausts",
+            "button_one_link": "shopify://collections/axle-back",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": false,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "b8a75908-cee0-425a-b085-35ddd98a86b4",
+        "slide-4",
+        "7a395d26-57b9-4b37-af4a-c2be29dc1bd7",
+        "slide_LDpjFw",
+        "93ca5e0f-c443-4a10-bacb-5711c00e55ca",
+        "2c85a0cb-6358-4472-9d33-59ff58cef618",
+        "bf850ce1-c151-4de1-81be-11ef62b5ebf1",
+        "fc1835dd-fb43-4989-8322-7a9cfc1cbe88"
+      ],
+      "custom_css": [
+        "h2 {font-family: \"Gobold\", sans-serif; font-style: Italic;}",
+        ".slideshow-slide__button {font-family: \"Gobold\", sans-serif;}"
+      ],
+      "settings": {
+        "enable_autoplay": true,
+        "autoplay_duration": 9,
+        "slideshow_width": "full",
+        "slideshow_height": "large",
+        "slideshow_height_mobile": "medium",
+        "slideshow_text_below_image": false
+      }
+    },
+    "1697045672577f3a69": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_highlights_banner": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight-1": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-rating-star",
+            "title": "Quality",
+            "text": "<p>FactionFab's high quality standards come from 15+ years of experience in automotive modification and driving.</p>",
+            "link": ""
+          }
+        },
+        "highlight-2": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-label-tag",
+            "title": "Affordability",
+            "text": "<p>We design and build our products so they can fit your budget without compromises.</p>",
+            "link": ""
+          }
+        },
+        "highlight-3": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-car",
+            "title": "Enthusiasm",
+            "text": "<p>Our team is built from enthusiasts who live and breath cars.</p>",
+            "link": ""
+          }
+        },
+        "3de54288-2eb8-4391-9fc5-c9485b58a863": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-people",
+            "title": "Support",
+            "text": "<p>We believe in giving back to the community with expert design, install instructions, and easy access to our support team.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight-1",
+        "highlight-2",
+        "highlight-3",
+        "3de54288-2eb8-4391-9fc5-c9485b58a863"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "content-width",
+        "icon_layout": "center",
+        "color": "#1d1d1d",
+        "icon_color": "#ec0917",
+        "background_color": "#ffffff",
+        "mobile_layout": "grid"
+      }
+    },
+    "dynamic_promo_mosaic": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/FFA1.10324.1-2_e4060fd4-dc8b-475c-a65a-41de0824e3db.jpg",
+            "title": "Brakes",
+            "text": "",
+            "color": "#000000",
+            "block_link": "shopify://collections/brake-pads",
+            "button_text": "Shop V2 Brake Pads",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "rgba(0,0,0,0)",
+            "opacity": 1
+          }
+        },
+        "promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/TitaniumShimsWBG-2.jpg",
+            "title": "Titanium",
+            "text": "",
+            "color": "#000000",
+            "block_link": "shopify://collections/brakes",
+            "button_text": "Shop Brake Shims",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "rgba(0,0,0,0)",
+            "opacity": 1
+          }
+        },
+        "promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/FFA1.10321.1-1600px-3.jpg",
+            "title": "Hub Centric",
+            "text": "",
+            "color": "#000000",
+            "block_link": "shopify://collections/wheels-and-tires",
+            "button_text": "Shop Wheel and Tire",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "#000000",
+            "opacity": 3
+          }
+        },
+        "promotion-4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/FFA1.10273.3_03_sqf_968800f0-266a-4fba-b71a-eb1de4628ca1.jpg",
+            "title": "Coilovers",
+            "text": "",
+            "color": "#000000",
+            "block_link": "shopify://collections/suspension",
+            "button_text": "Shop Suspension",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion-2",
+        "promotion-3",
+        "promotion-4"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": false
+      }
+    },
+    "dynamic_featured_collection": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "view-all-card": {
+          "type": "view_all_card",
+          "settings": {
+            "text_alignment": "center-center",
+            "pre_heading": "View all",
+            "heading": "Collection",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "view-all-card"
+      ],
+      "settings": {
+        "title": "V2 High Carbon Rotors",
+        "layout": "slideshow",
+        "collection": "brake-rotors",
+        "product_count": 8,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_promo_grid": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/ffa_1_10011_1_01_sq.jpg",
+            "title": "Gaskets",
+            "text": "",
+            "color": "#121212",
+            "block_link": "shopify://collections/engine",
+            "button_text": "Shop Engine",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/ffa_1_10110_1_02.jpg",
+            "title": "FA Turbo",
+            "text": "",
+            "color": "#121212",
+            "block_link": "shopify://collections/turbo-blankets",
+            "button_text": "Shop Turbo Blanket",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/FFA1.10242.3_2.jpg",
+            "title": "Carbon",
+            "text": "",
+            "color": "#000000",
+            "block_link": "shopify://collections/steering-wheels",
+            "button_text": "Shop Steering Wheels",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion-4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/FFA1.10243.4-2_sq.jpg",
+            "title": "Lug Nuts",
+            "text": "",
+            "color": "#121212",
+            "block_link": "shopify://collections/wheels-and-tires",
+            "button_text": "Shop Wheel Accessories",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion-2",
+        "promotion-3",
+        "promotion-4"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "medium",
+        "section_columns": 4,
+        "text_alignment": "top-left"
+      }
+    },
+    "dynamic_testimonials": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/FF_Coilovers_Review.jpg",
+            "star_rating": "5",
+            "text": "<p><strong>FactionFab F-Spec Coilovers  </strong></p><p>These are by far the best Coilovers for this price range! For the price, it’s got as much features as a Fortune Auto ones. And rides just like it. Just no clanking noises. The ride quality is stock like quality and comfortable. The drop is on point! I’m super happy. And would definitely recommend!</p>",
+            "author": "<p>Ikaika1775</p>"
+          }
+        },
+        "testimonial-2": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "<p>Author's name</p>"
+          }
+        },
+        "testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/Resonator_Review.jpg",
+            "star_rating": "5",
+            "text": "<p><strong>Sounds Amazing on my 2022 F 150 2.7 Ecoboost</strong></p><p>Just installed on my 2022 F 150 2.7 Ecoboost! Super easy install and sounds GREAT!!! Still nice and quiet in the cab, 0 drone! Would highly recommend!!!</p>",
+            "author": "<p>Bret</p>"
+          }
+        },
+        "testimonial-4": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/FFA1.10321.1-1600px-13.jpg",
+            "star_rating": "5",
+            "text": "<p><strong>FactionFab Hub Centric Ring Set (73mm to 56.1mm)</strong></p><p>Amazing set,5/5, perfect fitment and good quality. Verify fitment before ordering<br/><br/></p>",
+            "author": "<p>Pramod K. US</p>"
+          }
+        },
+        "testimonial-5": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "<p>Author's name</p>"
+          }
+        },
+        "testimonial-6": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "star_rating": "4.5",
+            "text": "<p>Add customer reviews and testimonials to showcase your store's happy customers.</p>",
+            "author": "<p>Author's name</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial-1",
+        "testimonial-2",
+        "testimonial-3",
+        "testimonial-4",
+        "testimonial-5",
+        "testimonial-6"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "image_crop": "rounded",
+        "text_size": "medium"
+      }
+    },
+    "dynamic_blog_posts": {
+      "type": "dynamic-blog-posts",
+      "disabled": true,
+      "settings": {
+        "title": "Blog posts",
+        "blog": "",
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": true
+      }
+    },
+    "pxs_newsletter_LFTwky": {
+      "type": "pxs-newsletter",
+      "settings": {
+        "title": "Newsletter",
+        "text": "<p>Sign Up for our newsletter for new product releases, deals, and more!</p>",
+        "desktop_alignment": "left",
+        "mobile_alignment": "top"
+      }
+    }
+  },
+  "order": [
+    "dynamic_slideshow",
+    "1697045672577f3a69",
+    "dynamic_highlights_banner",
+    "dynamic_promo_mosaic",
+    "dynamic_featured_collection",
+    "dynamic_promo_grid",
+    "dynamic_testimonials",
+    "dynamic_blog_posts",
+    "pxs_newsletter_LFTwky"
+  ]
+}

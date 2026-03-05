@@ -1,0 +1,16 @@
+/* @font-face {
+  font-family: "Gobold";
+  src: url("{{ 'Gobold-Bold.woff2' | asset_url }}") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Gobold";
+  src: url("{{ 'Gobold-Bold-Italic.woff2' | asset_url }}") format("woff2");
+  font-style: italic;
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+} */

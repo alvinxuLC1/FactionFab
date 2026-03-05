@@ -1,0 +1,166 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {}
+        },
+        "3ba59ec5-0d5d-47f0-a0aa-be505d452f82": {
+          "type": "sku",
+          "settings": {}
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "2041bf39-ee60-4294-ad2e-c92f49bc6556": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "7d092418-3a22-4670-a48c-8dc487b295a7": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_display": "low_stock_only",
+            "inventory_transfer_notice": true
+          }
+        },
+        "delivery_estimator_app_block_En4VLi": {
+          "type": "shopify://apps/delivery-estimator/blocks/app-block/2be8f45f-2937-4f60-b6b3-7488e231d668",
+          "settings": {}
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "bcc2e233-f55f-4532-a766-60bc4973d3d8": {
+          "type": "collapsible-tab",
+          "settings": {
+            "collapsible_tab_heading": "Install Instructions",
+            "collapsible_tab_text": "{{ product.metafields.custom.install_instructions | metafield_tag }}{{ product.metafields.custom.install_youtube | metafield_tag }}"
+          }
+        },
+        "7d6df779-d5d0-451d-abed-cd8ae9d4396a": {
+          "type": "collapsible-tab",
+          "settings": {
+            "collapsible_tab_heading": "Warranty",
+            "collapsible_tab_text": "<p>{{ product.metafields.custom.warranty.value }}</p>"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "3ba59ec5-0d5d-47f0-a0aa-be505d452f82",
+        "rating",
+        "2041bf39-ee60-4294-ad2e-c92f49bc6556",
+        "price",
+        "7d092418-3a22-4670-a48c-8dc487b295a7",
+        "delivery_estimator_app_block_En4VLi",
+        "form",
+        "description",
+        "bcc2e233-f55f-4532-a766-60bc4973d3d8",
+        "7d6df779-d5d0-451d-abed-cd8ae9d4396a"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "square",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "below",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "replace",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "ab3c3e9e-c49e-44ad-ad21-1ea2e4da21aa": {
+      "type": "dynamic-custom-liquid",
+      "custom_css": [
+        "iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}",
+        ".videoContainer {position: relative; padding-bottom: 47%; padding-top: 35px; height: 0; overflow: hidden;}"
+      ],
+      "settings": {
+        "custom_liquid": "<b><div style=\"line-height: 20px;\">Product Description</b>\n\n<div style=\"padding-top: 24px;\" class=\"page-width\">\n{{ product.description }}\n</div></div>"
+      }
+    },
+    "cbaebdcee5abf0323aa7": {
+      "type": "apps",
+      "blocks": {
+        "363a8f22-d66c-45ed-a9bd-b326f549971b": {
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "363a8f22-d66c-45ed-a9bd-b326f549971b"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "16980647461a99243e": {
+      "type": "apps",
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "171147966993c03cbe": {
+      "type": "apps",
+      "settings": {
+        "include_padding": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ab3c3e9e-c49e-44ad-ad21-1ea2e4da21aa",
+    "cbaebdcee5abf0323aa7",
+    "16980647461a99243e",
+    "recommendations",
+    "recently-viewed",
+    "171147966993c03cbe"
+  ]
+}
