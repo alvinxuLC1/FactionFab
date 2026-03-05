@@ -42,7 +42,7 @@
         "7d092418-3a22-4670-a48c-8dc487b295a7": {
           "type": "inventory_status",
           "settings": {
-            "inventory_display": "low_stock_only",
+            "inventory_display": "all_products",
             "inventory_transfer_notice": true
           }
         },

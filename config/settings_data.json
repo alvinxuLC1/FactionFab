@@ -51,7 +51,7 @@
     "layout_max_width": 1400,
     "product_sales_badge": true,
     "product_sales_badge_style": "percent",
-    "inventory_display": "low_stock_only",
+    "inventory_display": "all_products",
     "low_stock_threshold": 4,
     "product_option_style": "select",
     "enable_cart_redirection": false,
