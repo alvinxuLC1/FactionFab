@@ -46,10 +46,6 @@
             "inventory_transfer_notice": true
           }
         },
-        "delivery_estimator_app_block_En4VLi": {
-          "type": "shopify://apps/delivery-estimator/blocks/app-block/2be8f45f-2937-4f60-b6b3-7488e231d668",
-          "settings": {}
-        },
         "form": {
           "type": "form",
           "settings": {
@@ -85,7 +81,6 @@
         "2041bf39-ee60-4294-ad2e-c92f49bc6556",
         "price",
         "7d092418-3a22-4670-a48c-8dc487b295a7",
-        "delivery_estimator_app_block_En4VLi",
         "form",
         "description",
         "bcc2e233-f55f-4532-a766-60bc4973d3d8",

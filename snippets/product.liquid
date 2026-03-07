@@ -191,6 +191,8 @@
                   inventory_transfer: block.settings.inventory_transfer_notice,
                   variant: variant,
                   verbose: true,
+                  continue_selling_as_no_stock: true,
+                  continue_selling_with_lead_time: true,
                 %}
               {% endfor %}
 
@@ -467,9 +469,11 @@
               {% endif %}
 
             {% when '@app' %}
-              <div class="product-app">
-                {% render block %}
-              </div>
+              {% unless block.type contains 'shopify://apps/delivery-estimator/' %}
+                <div class="product-app">
+                  {% render block %}
+                </div>
+              {% endunless %}
 
             {% when 'view-product-link' %}
               <a

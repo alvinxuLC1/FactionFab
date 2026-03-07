@@ -13,11 +13,20 @@
 
   @param verbose {Boolean}
     If true, show additional text/elements
+
+  @param continue_selling_as_no_stock {Boolean}
+    If true, display continue-selling variants as no-stock messaging/styling
+
+  @param continue_selling_with_lead_time {Boolean}
+    If true, show lead-time messaging for continue-selling variants
 {% endcomment %}
 
 {% liquid
   assign stock_level = ''
+  assign display_stock_level = ''
   assign inventory_quantity = variant.inventory_quantity
+  assign continue_selling_as_no_stock = continue_selling_as_no_stock | default: false
+  assign continue_selling_with_lead_time = continue_selling_with_lead_time | default: false
 
   if variant.inventory_policy == 'continue' and inventory_quantity <= 0
     if variant.product.template_suffix contains 'pre-order'
@@ -33,6 +42,14 @@
     assign stock_level = 'none'
   endif
 
+  assign display_stock_level = stock_level
+  if stock_level == 'none'
+    assign display_stock_level = 'out-of-stock'
+  endif
+  if continue_selling_as_no_stock and stock_level == 'continue-selling'
+    assign display_stock_level = 'none'
+  endif
+
   if inventory_display == 'hidden'
     assign inventory_quantity = ''
   elsif inventory_display == 'low_stock_only' and stock_level == 'high'
@@ -46,7 +63,7 @@
 
 {% capture stock_badge_classes %}
   product-stock-level
-  product-stock-level--{{ stock_level }}
+  product-stock-level--{{ display_stock_level }}
   {% if variant.incoming and inventory_transfer %}
     product-stock-level--incoming
   {% endif %}
@@ -56,7 +73,15 @@
   {% if stock_level == 'pre-order' %}
     {{ 'product.status.pre_order' | t }}
   {% elsif stock_level == 'continue-selling' %}
-    {{ 'product.status.continue_selling' | t }}
+    {% if continue_selling_as_no_stock %}
+      {% if continue_selling_with_lead_time %}
+        {{ 'product.status.no_stock_with_lead_time' | t: inventory_quantity: inventory_quantity }}
+      {% else %}
+        {{ 'product.status.no_stock' | t: inventory_quantity: inventory_quantity }}
+      {% endif %}
+    {% else %}
+      {{ 'product.status.continue_selling' | t }}
+    {% endif %}
   {% elsif stock_level == 'high' %}
     {% if inventory_display == 'low_stock_threshold' %}
       {% if verbose %}
@@ -83,7 +108,7 @@
     {% if variant.incoming and inventory_transfer %}
       {{ 'product.status.incoming_stock' | t: inventory_quantity: inventory_quantity }}
     {% else %}
-      {{ 'product.status.no_stock' | t: inventory_quantity: inventory_quantity }}
+      {{ 'store_availability.general.out_of_stock' | t }}
     {% endif %}
   {% endif %}
 {% endcapture %}

@@ -59,10 +59,11 @@
       "in_stock_threshold_verbose": "{{ inventory_quantity }}+ in stock, ready to be shipped",
       "low_stock": "{{ inventory_quantity }} In Stock",
       "low_stock_hidden": "Low stock",
-      "no_stock": "Out of stock",
+      "no_stock": "Available to order",
       "incoming_stock": "More on the way!",
       "pre_order": "Coming soon",
-      "continue_selling": "Available to order"
+      "continue_selling": "Available to order",
+      "no_stock_with_lead_time": "Available to order — contact us for current lead times."
     },
     "color_swatches": {
       "swatches_count": {
@@ -120,7 +121,7 @@
       "sale_percentage_single_html": "Save <span data-price-percent-saved>{{ savings }}</span>%",
       "sale_money_range_html": "Save up to <span class=\"money\" data-price-money-saved>{{ savings }}</span>",
       "sale_money_single_html": "Save <span class=\"money\" data-price-money-saved>{{ savings }}</span>",
-      "sold_out": "Sold out",
+      "sold_out": "Out of stock",
       "sale": "Sale",
       "pre_order": "Pre-order"
     }
